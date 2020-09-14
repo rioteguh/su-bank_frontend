@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # coba
 
 > Coba aja
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# su-bank_frontend
+Aplikasi Internet Banking sederhana dengan VueJS
+>>>>>>> 03ea4a3903a1f4b9feb3d3177d5fd12f7560bc84
