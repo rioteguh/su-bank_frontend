@@ -1,0 +1,21 @@
+$(document).ready(function(){
+	setInterval(function(){
+		$.ajax({
+			url:'https://10.14.22.213:8900/cmcrm/dashboard_api/dash',
+			type:'POST',
+			dataType:'json',
+			data:{},
+			success:function(data){
+				$('#total-metronet').text(data.total_metronet);
+				$('#total-ip_vpn').text(data.total_ip_vpn);
+				$('#total-others').text(data.total_others);
+				$('#total-clear_channel').text(data.total_clear_channel);
+				$('#total-internet').text(data.total_internet);
+				$('#total-vsat').text(data.total_vsat);
+				$('#total-manage_service_router').text(data.total_manage_service_router);
+				$('#total-router_only_and_install').text(data.total_router_only_and_install);
+				$('#so-cm').text(data.so_cm);
+			}
+		});
+	},5000);
+});
